@@ -1,0 +1,46 @@
+/* *{
+    border: 2px solid blue;
+} */
+
+/*Element Selector*/
+h1 {
+    color: gray;
+}
+
+/*Class Selector*/
+
+
+/*ID selector*/
+#article2{
+    border: 1px solid black;
+}
+
+/*Group Selector*/
+h1, h2, h3 {
+    color: purple;
+}
+
+/*Nested Selector*/
+article h2 {
+    background-color: silver;
+}
+
+/*Specificity Rule*/
+p {
+    background-color: black;
+    color: white;
+}
+.para1{
+    background-color: gray;
+    color: yellow;
+}
+#para{
+    background-color: purple;
+    color: gold;
+}
+
+
+/*ID - Read first
+  Class - Read Second
+  Elements - Read Third*/
+
