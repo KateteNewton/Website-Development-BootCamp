@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Newton Katete">
+        <link rel="icon" href="images.png" type="image/png">
+    </head>
+    <body>
+        <header>
+            <h1>My Student Profile</h1>
+            <p>Welcome to the 2nd session for this website development bootcamp</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about_me.html">About Me</a></li>
+                    <li><a href="#goals">Goals</a></li>
+                    <li><a href="#languages">Programming Languages</a></li>
+                    <li><a href="#endPage">Last Of Page</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main> 
+
+            <section id="goals">
+                <!--These are my goals on what i want to acieve at the end of this bootcamp-->
+                <h2><mark>My Learning Goal</mark></h2>
+                <p>My goal is to build clear and accessible websites</p>
+                <p>&quot; We will have an adventure in learning HTML &quot; - N.Katete</p>
+                <hr/>
+            </section>
+
+            <section id="languages">
+                <dl>
+                    <dt>HTML</dt>
+                    <dd>A language used to create the structure of websites</dd>
+
+                    <dt>CSS</dt>
+                    <dd>A language used to style websites</dd>
+                </dl>
+
+                <dl>
+                    <dt>JS</dt>
+                    <dt>JavaScript</dt>
+                    <dd>A language that is used to give behaviour and interaction with the website</dd>
+                </dl>
+
+                <hr/>
+            </section>
+
+            <section id="endPage">
+                <p>Steps I will use to achieve my goal</p>
+                <ol>
+                    <li>Practice Everyday</li>
+                    <li>Go through each session</li>
+                    <li>Read a little more</li>
+                </ol>
+
+                <p>My Top 5 Skills are:</p>
+                <ol>
+                    <li>Website Developement</li>
+                    <li>Leadership</li>
+                    <li>Mobile Application Programming using React Native</li>
+                    <li>Videography</li>
+                    <li>Writing</li>
+                </ol>
+                <p>We will learn the following:</p>
+                <ul>
+                    <li>Front End
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </li>
+                    <li>BackEnd
+                        <ul>
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </section>
+            <section id="files">
+                <a href="Lecture_2_HTML_Semantic_HTML.pdf" download>Download Now</a>
+
+            </section>
+            <hr>
+            <section id="images">
+                <figure>
+                    <img 
+                        src="images/UniData.png" alt="Unidata Promotional Poster"
+                        width="200" 
+                        height="200"
+                        loading="lazy">
+                    <figcaption>UniData Google Playstore Advertisement</figcaption>
+                </figure>
+            </section>
+            <hr>
+            <code>
+                <h2>Demo Code</h2>
+                <p>This is a demo on the code element </p>
+            </code>
+            <details>
+                <summary>What is CSS?</summary>
+
+                <p>
+                    CSS - Casgarding Styles Sheet
+                </p>
+            </details>
+            <hr>
+            <section id="contact-info">
+                <p>Contact Me On:</p>
+                <a href="mailto:newtonisaackatete@gmail.com">Email Me</a>
+                <br>
+                <a href="tel:+260762400061">Call +260762400061</a>
+            </section>
+            <br>
+
+        <section>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <form action="https://httpbin.org/post" method="post">
+                    <p>
+                        <label for="firstName">First Name: </label>
+                        <input name="fName" id="firstName" type="text" placeholder="Enter Your First Name" required>
+                    </p>
+                    <p>
+                        <label for="lastName">Last Name: </label>
+                        <input name="lName" id="lastName" type="text" placeholder="Enter Your Last Name">
+                    </p>
+                    <p>
+                        <label for="password">Password: </label>
+                        <input name="password" id="password" type="password" placeholder="Enter Your Password">
+                    </p>
+                    <p>
+                        <label for="email">Email: </label>
+                        <input name="email" id="email" type="email" placeholder="Enter your email">
+                    </p>
+                    <p>
+                        <label for="favYear">What was your favourite year: </label>
+                        <input name="favYear" id="year" type="number" min="2000" max="2025" value="2010" step="5">
+                    </p>
+
+                
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Foods</legend>
+                 <p>
+                    <label for="food">Choose Your Favorite Food:</label>
+                    <select id="food" name="food">
+                        <optgroup label="Meat Products">
+                            <option value="chicken" selected>Chicken</option>
+                            <option value="goatMeat">Goat Meat</option>
+                            <option value="beef">Beef</option>
+                        </optgroup>
+
+                        <optgroup label="Veggie-Products">
+                            <option value="rape">Rape</option>
+                            <option value="eggs">Egg Plant</option>
+                            <option value="tamatoes">Tamatoes</option>
+                        </optgroup>
+                        
+                    </select>
+                </p>
+                
+                <p>
+                    <label for="more">Write more about your favorite food:</label>
+                    <textarea id="more" name="more" rows="5" cols="40" placeholder="Write more Information on your food"></textarea>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Pets and Animals</legend>
+                <p>
+                    <label for="animal">Tick Your Favorite Animal: 
+                        <input id="lion" name="lion" type="checkbox" value="Lion"> Lion
+                        <input id="elephant" name="elephant" type="checkbox" value="elephant"> Elephant
+                    </label>
+                </p>
+                 <p>
+                    <label for="animal">Choose Your Pet: 
+                        <input id="cat" name="animal" type="radio" value="Lion"> Cat
+                        <input id="Dog" name="animal" type="radio" value="elephant"> Dog
+                        <input id="none" name="animal" type="radio" value="none"> None
+                    </label>
+                </p>
+            </fieldset>
+            <br>
+            <button type="submit">Submit</button>
+            </form>
+        </section>
+
+            
+        </main>
+        <hr>
+        <footer>
+            <p>Web Development BootCamp 2026</p>
+            <p>&lt;&lt;
+                &copy; 2026 Newton Katete &gt;&gt;</p>
+
+            <time datetime="2026-10-12">
+                2026 October 12
+            </time>
+        </footer>
+    </body>
+</html>

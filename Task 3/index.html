@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Newton Katete">
+    <title>Course Registration Form</title>
+</head>
+<body>
+    <header>
+        <h1>Course Registration Form</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Register</h2>
+            <form action="https://httpbin.org/post" method="post">
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <p>
+                        <label>Full Name: </label>
+                        <input type="text" name="fullName" id="fullName" placeholder="Enter your Full Name">
+                    </p>
+                    <p>
+                        <label>Email Address: </label>
+                        <input type="email" name="email" id="email" autocomplete="email" placeholder="Enter your email address">
+                    </p>
+                    <p>
+                        <label>Phone Number: </label>
+                        <input type="tel" name="phone" id="phone" placeholder="Enter your Phone Number">
+                    </p>
+                    <p>
+                        <label>What year wre you born in?</label>
+                        <input type="number" name="year" id="year" min="1995" max="2015" step="5">
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Other Activities</legend>
+                    <label>Programming Languages:</label>
+                    <select name="progLang" id="progLang" multiple size="4">
+                        <optgroup label="Object Oriented Languages">
+                            <option value="java">Java</option>
+                            <option value="csharp">C#</option>
+                            <option value="cpp">C++</option>
+                        </optgroup>
+                        <optgroup label="Front End Languages">
+                            <option value="html">HTML</option>
+                            <option value="cc">CSS</option>
+                            <option value="js">JavaScript</option>
+                        </optgroup>
+                        <optgroup label="Back End Languages">
+                            <option value="php">php</option>
+                            <option value="go">Go</option>
+                        </optgroup>
+                    </select>
+                    <br><br>
+                    <label>Choose an IDE</label>
+                    <input name="editor" id="editor" list="editors">
+                    <datalist id="editors">
+                        <option value="VS Code">
+                        <option value="Cursor">
+                        <option value="Sublime">
+                        <option value="NotePadd">
+                    </datalist>
+                    <br><br>
+                    <label>What are your goals?</label>
+                    <textarea id="goals" name="goals" placeholder="Enter your goals" autofocus></textarea>
+                    <br><br>
+                    <p>
+                        <input type="checkbox" name="agreement" id="agreement">
+                        <label>I have read the Terms & Conditions</label>
+                    </p>
+                </fieldset>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Newton Katete</p>
+    </footer>
+</body>
+</html>

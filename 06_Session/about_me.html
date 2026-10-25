@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Website | About Me</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Newton Katete">
+        <link rel="icon" href="images.png" type="image/png">
+        <link rel="StyleSheet" href=style.css>
+    </head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        caption {
+            margin-bottom: 12px;
+            font-weight: 700;
+            text-align: left;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 12px;
+            text-align: center;
+        }
+
+        tfoot{
+            font-weight: 700;
+        }
+
+    </style>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>About Me</h1>
+                <p>I am Newton Katete. I am currently a Computer Science Student at The Copperbelt University. This is a Website Development BootCamp</p>
+
+                <p>To find out more about me click the link below</p>
+                <a href="https://newton-katete-portifolio.vercel.app/">Official Website</a>
+            </section>
+            <br>
+            
+            <table>
+                <caption>HTML Schdule</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Week</th>
+                        <th scope="col">Topic</th>
+                        <th scope="col">Task</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">1</td>
+                        <td>Introduction</td>
+                        <td>Profile</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>Semenatic HTML</td>
+                        <td>Login</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Cohort 1 - FrontEnd </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </main>
+    </body>
+</html>
