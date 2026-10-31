@@ -1,0 +1,36 @@
+h1 {
+    /*color - Changes or modifies color Text*/
+    color: green;
+
+    /*background-color/background - Changes or moddifies background color of an element
+    1rem = 16px
+    
+    */
+    
+    border: 3px solid blue;
+    width: 80%;
+    margin: 1rem 24rem 5rem 4rem;
+}
+
+.para1 {
+    /*Direct Color*/
+    color: gold;
+
+    /*rgb*/
+    background-color: rgb(56, 10, 25);
+}
+
+p{
+    font-size: 1rem;
+    padding: 0.5rem 1rem 1.5rem 2rem;
+}
+
+h2, h3{
+    /*hex code*/
+    color: #ff4500; 
+
+    /*HSL(Hue, Saturation, Lightness*/
+    background-color: hsl(226, 36%, 80%);
+}
+
+
