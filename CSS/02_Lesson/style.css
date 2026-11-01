@@ -1,3 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    padding: 2rem;
+    width: 400px;
+}
+
 h1 {
     /*color - Changes or modifies color Text*/
     color: green;
@@ -7,7 +19,13 @@ h1 {
     
     */
     
-    border: 3px solid blue;
+    border: dashed blue;
+    border-top: 5px solid green;
+    border-right: 10px solid gold;
+    border-bottom-width: 6px;
+    border-left-style: ridge;
+    outline: 5px solid purple;
+    outline-offset: -10px;
     width: 80%;
     margin: 1rem 24rem 5rem 4rem;
 }
@@ -22,7 +40,7 @@ h1 {
 
 p{
     font-size: 1rem;
-    padding: 0.5rem 1rem 1.5rem 2rem;
+    padding: 2.5rem;
 }
 
 h2, h3{
@@ -32,5 +50,6 @@ h2, h3{
     /*HSL(Hue, Saturation, Lightness*/
     background-color: hsl(226, 36%, 80%);
 }
+
 
 

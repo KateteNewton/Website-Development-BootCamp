@@ -1,0 +1,42 @@
+body {
+    padding: 15%;
+    margin: auto 0;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: left;
+    text-indent: 68px;
+    line-height: 3;
+    /*letter-spacing: 3px;
+    word-spacing: 10px;
+    font-weight: 900;
+    font-style: oblique; */
+}
+
+
+a {
+    text-decoration: none;
+    color: skyblue;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: blue;
+}
+
+a:focus{
+    outline: 3px solid purple;
+    outline-offset: 3px;
+}
+
