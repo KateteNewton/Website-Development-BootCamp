@@ -1,0 +1,56 @@
+ol{
+    /*Changes to lower alphabetical charaters
+    list-style-type: lower-alpha; */
+
+    /*Puts zero at the front of the numbers
+    list-style-type: decimal-leading-zero; */
+
+    /*Changes the numbering to roman numererols
+    list-style-type: upper-roman; */
+
+    /*Removes all the numbering list items
+    list-style-type: none; */
+
+    list-style-position: outside;
+    text-align: center;
+
+    /*List style image property
+    list-style-image: url("UniData.png"); */
+}
+
+ul {
+    /*Changes the list items to square from circle
+    list-style-type: square; */
+
+    /*Changes the list items to circle
+    list-style-type: disc; */
+    list-style-position: inside;
+    text-align: left;
+
+    /*Short Hand of the List Style Property
+    list-style: square inside url("");
+    */
+}
+
+li:nth-child(2){
+    color: green;
+}
+
+li:nth-child(even){
+    color: gold;
+}
+
+p{
+    display: block;
+    width: 220px;
+    height: 60px;
+    padding: 70px;
+    margin: 15px;
+}
+
+em {
+    width: 200px;
+    height: 20px;
+    padding: 20px;
+}
+
