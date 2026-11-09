@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+}
+
+.float2{
+    height: 20vw;
+    width: 20vw;
+    background-color: blue;
+    color: white;
+    float: right;
+}
+
+
+.float{
+    height: 20vw;
+    width: 20vw;
+    background-color: blue;
+    color: white;
+    float: left;
+}
+
+.p1 {
+    clear: left;
+}
+
+p { 
+    clear: right;
+}
+
+main {
+    column-count: 3;
+    column-width: 18rem;
+    column-gap: 60px;
+    column-rule: 2px solid gray;
+}
+
+
+
