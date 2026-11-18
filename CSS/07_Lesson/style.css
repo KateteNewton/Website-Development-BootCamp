@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.page-layout {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    grid-template-areas: 
+        "header header"
+        "sidebar main"
+        "footer footer" 
+    ;
+    gap: 16px;
+
+}
+
+.header{ 
+    grid-area: header;
+    background-color: blue;
+    color: white;
+    padding: 30px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: lightgreen;
+    color: black;
+    padding: 30px;
+}
+
+.main {
+    grid-area: main;
+    background-color: green;
+    color: black;
+    padding: 30px;
+
+}
+
+.footer{
+    grid-area: footer;
+    background-color: purple;
+    color: white;
+    padding: 30px;
+}

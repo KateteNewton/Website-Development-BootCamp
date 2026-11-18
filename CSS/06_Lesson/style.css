@@ -1,0 +1,78 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ 
+/*
+ body {
+    font-size: 1rem;
+    min-height: 200vh;
+ }
+
+ .outer{
+    border: 3px dashed black;
+    width: 65vw;
+    height: 95vh;
+    margin: 40px auto;
+ }
+
+ .inner {
+    border: 2px solid blue;
+    width: 40vh;
+    height: 50vh;
+    margin: 160px auto;
+ }
+    
+
+ .absolute {
+    width: 150px;
+    height: 150px;
+    color: white;
+    padding: 1rem;
+    background-color: blue;
+    position: relative;
+   
+ }
+
+ 
+
+ .fixed {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+
+ }
+
+
+ .sticky {
+    background-color: orange;
+    width: 150px;
+    height: 150px;
+    position: sticky;
+    top:0;
+ }  
+
+   */
+
+ body { 
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.box{
+   width: 320px;
+   height: 180px;
+   background-color: black;
+   color: white;  
+   
+}
